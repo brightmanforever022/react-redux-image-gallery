@@ -1,0 +1,17 @@
+.photo-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  min-height: calc(100vh - 128px);
+}
+
+@media only screen and (max-width: 767px) {
+  .photo-list-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
