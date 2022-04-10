@@ -32,9 +32,11 @@ class PhotoList extends Component {
   render() {
     const { fresh, loading, photos = [], favorites = [], error, classes } = this.props
     const errorText = error ? JSON.stringify(error) : ''
+    const favoritesTitle = `The number of Favorites: ${ favorites.length }`
+
     return (
       <div className={'photo-list-container'}>
-        <h2>The number of Favorites: { favorites.length }</h2>
+        <h2>{favoritesTitle}</h2>
         {loading ? (
           <div className={classes.spinner}>
             <CircularProgress/>

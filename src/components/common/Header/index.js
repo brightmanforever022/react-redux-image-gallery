@@ -19,13 +19,14 @@ const useStyles = makeStyles(theme => ({
 
 export default function Header() {
   const classes = useStyles()
+  const headerTitle = 'My Photos Library'
 
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            My Photos Library
+            {headerTitle}
           </Typography>
         </Toolbar>
       </AppBar>

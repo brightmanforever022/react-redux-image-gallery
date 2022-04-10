@@ -12,7 +12,6 @@ import Modal from '@material-ui/core/Modal'
 
 import './styles.css'
 
-
 const useStyles = makeStyles((theme) => ({
   container: {
     padding: 15
