@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography'
 import CircularProgress from '@material-ui/core/CircularProgress'
 import PhotoItem from '../PhotoItem'
 
-import './styles.css'
+import './styles.scss'
 
 const styles = {
   gridList: {

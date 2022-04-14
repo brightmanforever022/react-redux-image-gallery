@@ -10,7 +10,7 @@ import Fade from '@material-ui/core/Fade'
 import FavoriteIcon from '@material-ui/icons/Favorite'
 import Modal from '@material-ui/core/Modal'
 
-import './styles.css'
+import './styles.scss'
 
 const useStyles = makeStyles((theme) => ({
   container: {
