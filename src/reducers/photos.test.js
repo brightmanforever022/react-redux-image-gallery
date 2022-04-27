@@ -7,7 +7,7 @@ describe('photosReducer', () => {
     loading: true,
     photos: [],
     offset: 0,
-    limit: 25,
+    limit: 24,
     error: null
   }
 

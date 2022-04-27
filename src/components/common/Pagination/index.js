@@ -36,7 +36,7 @@ class Pagination extends React.Component {
           style={{marginLeft: 40}}
         >
           <MenuItem value={10}>10</MenuItem>
-          <MenuItem value={25}>25</MenuItem>
+          <MenuItem value={24}>24</MenuItem>
           <MenuItem value={50}>50</MenuItem>
           <MenuItem value={100}>100</MenuItem>
         </Select>
